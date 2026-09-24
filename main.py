@@ -82,3 +82,51 @@ def pandas_data():
     result = get_data_panda()
     return result
 
+
+
+
+# # Create a new Python project
+# uv init my-api
+# cd my-api
+
+# # Create virtual environment
+# uv venv
+
+# # Activate venv - Git Bash (Windows)
+# source .venv/Scripts/activate
+
+# # Activate venv - CMD
+# .venv\Scripts\activate
+
+# # Activate venv - PowerShell
+# .venv\Scripts\Activate.ps1
+
+# # Install FastAPI
+# uv add fastapi
+
+# # Install Uvicorn explicitly (optional)
+# uv add uvicorn
+
+# Add package
+# uv add pandas
+
+# # Add multiple packages
+# uv add pandas sqlalchemy pydantic
+
+# # Remove package
+# uv remove pandas
+
+# # Install/sync dependencies from pyproject.toml
+# uv sync
+
+# # Update packages
+# uv lock --upgrade
+
+# # Show dependency tree
+# uv tree
+
+# # Run Python
+# uv run python main.py
+
+# # Open Python shell
+# uv run python
